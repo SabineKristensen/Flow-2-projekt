@@ -1,0 +1,249 @@
+
+body {background-color: floralwhite;}
+
+/* Forside */
+    h1 {font-family: 'Philosopher', sans-serif;
+        color: burlywood;
+        text-align: center;
+        margin-top: 215px;
+        border-bottom: burlywood thin solid;}
+    h3 {font-family: 'Philosopher', sans-serif;
+        color: burlywood;
+        text-align: center;
+        margin-top: 0px;}
+    .logo {color: burlywood;
+        font-family: 'Ephesis', cursive;
+        font-size: large;
+        border:thin solid;
+        padding: 5px;}
+    .simplemenu {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+    .simplemenu a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+    .simplemenu a:hover { color: rgb(148, 104, 46);}
+
+/* Om mig side */
+    .simplemenu2 {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+    .simplemenu2 a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+    .simplemenu2 a:hover {color: rgb(148, 104, 46);}
+    .ommig {border-bottom: thin solid;}
+    .box { background-color: rgb(248, 242, 231);
+        color: burlywood;
+        width: 600px;
+        padding: 10px 60px;
+        margin-top: 80px;
+        margin-left: 250px;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
+        border-radius: 10px;}
+    #knap {position: fixed;
+        bottom: 270px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: burlywood;
+        color: floralwhite;
+        padding: 6px;
+        border-radius: 200px;
+        font-size: 20px;
+        font-family: 'Ephesis', cursive;}
+    .home3 { margin-left: 1160px;
+            margin-top: 45px;}
+    .home3 a { color: burlywood;
+            font-family: 'Ephesis', cursive;
+            font-size: 2em;
+            text-decoration: none;}
+    .sabine { width: 150px;
+        height: 150px;
+        border-radius: 80px;}
+  
+/* Projekt */
+    .simplemenu3 {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+    .simplemenu3 a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+    .simplemenu3 a:hover {color: rgb(148, 104, 46);}
+    .projekt {border-bottom: thin solid;}
+    .box2 { background-color: rgb(248, 242, 231);
+        color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        width: 190px;
+        padding: 0.5px;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 90px;
+        border-radius: 8px;}
+    .box2 a { color: burlywood;
+        text-decoration: none;}
+    .box2 a:hover { color: rgb(148, 104, 46);}
+    .box3 { background-color: rgb(248, 242, 231);
+        color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        width: 190px;
+        padding: 0.5px;
+        text-align: center;
+        margin-top: -68px;
+        margin-left: 380px;
+        border-radius: 8px;}
+    .box4 { background-color: rgb(248, 242, 231);
+        color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        width: 190px;
+        padding: 0.5px;
+        text-align: center;
+        margin-top: -68px;
+        margin-left: 670px;
+        border-radius: 8px;}
+    .box5 { background-color: rgb(248, 242, 231);
+        color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        width: 190px;
+        padding: 0.5px;
+        text-align: center;
+        margin-top: -68px;
+        margin-left: 951px;
+        border-radius: 8px;}
+    .home4 { margin-left: 1160px;
+            margin-top: 207px;}
+    .home4 a { color: burlywood;
+            font-family: 'Ephesis', cursive;
+            font-size: 2em;
+            text-decoration: none;}
+
+/* 1. semester */
+    .simplemenu4 {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+    .simplemenu4 a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+    .simplemenu4 a:hover {color: rgb(148, 104, 46);}
+    .projekt {border-bottom: thin solid;}
+    .tekst1 {color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        text-align: center;}
+    .tekst2 {color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        margin-left: 335px;}
+   .billede1 { position: relative;
+        width: 400px;} 
+    .rbillede { display: block;
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 60px;}
+    .overlay { position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        margin-left: 60px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        transition: opacity 0.25;}
+    .overlay :hover { opacity: 1;}
+    .title a { color: burlywood;
+        font-family: 'Philosopher', sans-serif;
+        text-decoration: none;}
+    .title { font-size: 2em;
+        font-weight: bold;}
+    .tekst { font-size: 0.90em;
+        margin-top: 0.25em;}
+    .home5 { margin-left: 1160px;
+            margin-top: 15px;}
+    .home5 a { color: burlywood;
+            font-family: 'Ephesis', cursive;
+            font-size: 2em;
+            text-decoration: none;}
+
+/* Udflugt */
+    .simplemenu5 {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+    .simplemenu5 a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+    .simplemenu5 a:hover {color: rgb(148, 104, 46);}
+    h2 { color: burlywood;
+        margin-left: 20px;}
+    p { color: burlywood;
+        margin-left: 20px;}
+    .img { width: 48%;
+        height: 50%;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;}
+    .img2 { width: 48%;
+        height: 50%;
+        margin-top: 10px;
+        float: left;}
+    .tilbage { font-size: 2em;
+        font-family: 'Ephesis', cursive;
+        text-decoration: none;}
+    .tilbage a { color: burlywood;
+        text-decoration: none;
+        padding-top: 30px;}
+
+/* Kontakt */
+    .simplemenu6 {display: flex;
+        justify-content: space-between;
+        font-family: 'Philosopher', sans-serif;
+        width: 70%;
+        margin: 45px auto;
+        padding: 5px;}
+.simplemenu6 a {text-decoration: none;
+        margin-left: 20px;
+        color: burlywood;}
+.simplemenu6 a:hover {color: rgb(148, 104, 46);}
+.kontakt {border-bottom: thin solid;}
+.navn { color: burlywood;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 10px;
+    margin-left: 330px;}
+.email { color: burlywood;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 330px;}
+.privatperson { color: burlywood;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 330px;}
+.besked { color: burlywood;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 330px;}
+.btn { margin-left: 710px;
+    padding: 5px;}
+.home { margin-left: 1160px;
+    margin-top: 110px;}
+.home a { color: burlywood;
+    font-family: 'Ephesis', cursive;
+    font-size: 2em;
+    text-decoration: none;}
+
